@@ -1,0 +1,775 @@
+Archive member included because of file (symbol)
+
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodhi4.o)
+                              Sensor_Input.o (__udivmodhi4)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_exit.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o (exit)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_copy_data.o)
+                              Button_Input.o (__do_copy_data)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clear_bss.o)
+                              main.o (__do_clear_bss)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(iob.o)
+                              UART.o (__iob)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(printf.o)
+                              RX.o (printf)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(putchar.o)
+                              RX.o (putchar)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(vfprintf_std.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(printf.o) (vfprintf)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(eerd_byte_atmega8.o)
+                              EEPROM.o (__eerd_byte_m8)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(eewr_byte_atmega8.o)
+                              EEPROM.o (__eewr_byte_m8)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strnlen_P.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(vfprintf_std.o) (strnlen_P)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strnlen.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(vfprintf_std.o) (strnlen)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(fputc.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(putchar.o) (fputc)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(ultoa_invert.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(vfprintf_std.o) (__ultoa_invert)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_prologue.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(printf.o) (__prologue_saves__)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_epilogue.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(printf.o) (__epilogue_restores__)
+
+Allocating common symbols
+Common symbol       size              file
+
+Unit_ID_fast        0x1               RX.o
+CAP_Active          0x1               Zero_Cross.o
+Current_Half        0x1               Zero_Cross.o
+__iob               0x6               c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(iob.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00002000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+LOAD main.o
+LOAD Button_Input.o
+LOAD Dimmer_Light.o
+LOAD EEPROM.o
+LOAD Fire_Triacs.o
+LOAD Init_Comparator.o
+LOAD Pins_Init.o
+LOAD RX.o
+LOAD Sensor_Input.o
+LOAD Signal_Capturing.o
+LOAD Sync_Reference_Delays.o
+LOAD Timers.o
+LOAD TX.o
+LOAD UART.o
+LOAD Vref.o
+LOAD Zero_Cross.o
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x1d34
+ *(.vectors)
+ .vectors       0x00000000       0x26 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x00000026                . = ALIGN (0x2)
+                0x00000026                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000026        0x0 linker stubs
+ *(.trampolines*)
+                0x00000026                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000026                __ctors_start = .
+ *(.ctors)
+                0x00000026                __ctors_end = .
+                0x00000026                __dtors_start = .
+ *(.dtors)
+                0x00000026                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000026        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+                0x00000026                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000026        0xc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000032       0x16 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_copy_data.o)
+                0x00000032                __do_copy_data
+ .init4         0x00000048       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clear_bss.o)
+                0x00000048                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000058        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+ *(.init9)
+ *(.text)
+ .text          0x0000005c        0x2 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+                0x0000005c                __vector_12
+                0x0000005c                __bad_interrupt
+                0x0000005c                __vector_13
+                0x0000005c                __vector_17
+                0x0000005c                __vector_5
+                0x0000005c                __vector_4
+                0x0000005c                __vector_9
+                0x0000005c                __vector_2
+                0x0000005c                __vector_15
+                0x0000005c                __vector_8
+                0x0000005c                __vector_14
+                0x0000005c                __vector_10
+                0x0000005c                __vector_18
+ .text          0x0000005e      0x108 main.o
+                0x0000005e                TX_Multi_Packet
+                0x000000e6                main
+ .text          0x00000166      0x1f6 Button_Input.o
+                0x00000316                Step_Button_counters
+ .text          0x0000035c      0x146 Dimmer_Light.o
+                0x000003e4                Set_Output_level
+                0x00000498                Local_Light_Level_Set_Stop_Fading
+                0x0000035c                Step_Current_Output
+                0x00000464                Local_Light_Level_Set
+ .text          0x000004a2       0x14 EEPROM.o
+                0x000004a2                Read_EEPROM
+                0x000004ac                Write_EEPROM
+ .text          0x000004b6       0x12 Fire_Triacs.o
+                0x000004b6                Fire_Triacs
+ .text          0x000004c8        0x6 Init_Comparator.o
+                0x000004c8                Init_Comparator
+ .text          0x000004ce       0x18 Pins_Init.o
+                0x000004ce                Pins_Init
+ .text          0x000004e6      0x894 RX.o
+                0x000004e6                Enable_SETUP_mode
+                0x00000578                Wait_New_Halfwave
+                0x0000065a                RX
+                0x00000538                Calced_checksum
+                0x000004fc                Disable_SETUP_mode
+                0x000005fa                Wait_1_empty_halfwaves
+                0x000005b6                Collect_Byte
+                0x00000504                Random_Byte
+                0x00000596                Collect_Double_Bit
+                0x0000061a                init_Variable_buffers
+ .text          0x00000d7a       0x86 Sensor_Input.o
+                0x00000d7a                Sensor_Init
+                0x00000d96                Read_Sensor
+                0x00000d84                ADC_Convert
+ .text          0x00000e00       0xc0 Signal_Capturing.o
+                0x00000e00                __vector_16
+ .text          0x00000ec0       0xc0 Sync_Reference_Delays.o
+                0x00000ef2                Get_Sync_And_Ref_Delays
+                0x00000ec0                Validate_Pos_Set_One_Delay
+ .text          0x00000f80      0x136 Timers.o
+                0x00000fce                __vector_6
+                0x00000fba                __vector_3
+                0x00000f92                __vector_7
+                0x00000f80                Init_Timers
+ .text          0x000010b6      0x494 TX.o
+                0x000010fe                TX
+ .text          0x0000154a       0xba UART.o
+                0x0000154a                uart_char_tx
+                0x0000157e                __vector_11
+                0x00001560                uart_Init
+ .text          0x00001604        0xe Vref.o
+                0x00001604                Init_Vref
+                0x0000160a                Set_Ext_Vref_To_Current_Level
+ .text          0x00001612      0x152 Zero_Cross.o
+                0x00001620                __vector_1
+                0x00001612                Zero_Cross_Init
+ .text          0x00001764        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodhi4.o)
+ .text          0x00001764        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_exit.o)
+ .text          0x00001764        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_copy_data.o)
+ .text          0x00001764        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clear_bss.o)
+ .text          0x00001764        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(iob.o)
+ .text          0x00001764        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(printf.o)
+ .text          0x00001764        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(putchar.o)
+ .text          0x00001764        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(vfprintf_std.o)
+ .text          0x00001764        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(eerd_byte_atmega8.o)
+ .text          0x00001764        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(eewr_byte_atmega8.o)
+ .text          0x00001764        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strnlen_P.o)
+ .text          0x00001764        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strnlen.o)
+ .text          0x00001764        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(fputc.o)
+ .text          0x00001764        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(ultoa_invert.o)
+ .text          0x00001764        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_prologue.o)
+ .text          0x00001764        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_epilogue.o)
+                0x00001764                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x00001764       0x28 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodhi4.o)
+                0x00001764                __udivmodhi4
+ .text.libgcc   0x0000178c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_exit.o)
+ .text.libgcc   0x0000178c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000178c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clear_bss.o)
+ .text.avr-libc
+                0x0000178c       0x24 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(printf.o)
+                0x0000178c                printf
+ .text.avr-libc
+                0x000017b0        0xc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(putchar.o)
+                0x000017b0                putchar
+ .text.avr-libc
+                0x000017bc      0x39c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(vfprintf_std.o)
+                0x000017bc                vfprintf
+ .text.avr-libc
+                0x00001b58       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(eerd_byte_atmega8.o)
+                0x00001b58                __eerd_byte_m8
+ .text.avr-libc
+                0x00001b68       0x1a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(eewr_byte_atmega8.o)
+                0x00001b68                __eewr_byte_m8
+                0x00001b6a                __eewr_r18_m8
+ .text.avr-libc
+                0x00001b82       0x16 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strnlen_P.o)
+                0x00001b82                strnlen_P
+ .text.avr-libc
+                0x00001b98       0x16 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strnlen.o)
+                0x00001b98                strnlen
+ .text.avr-libc
+                0x00001bae       0x58 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(fputc.o)
+                0x00001bae                fputc
+ .text.avr-libc
+                0x00001c06       0xbc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(ultoa_invert.o)
+                0x00001c06                __ultoa_invert
+ .text.libgcc   0x00001cc2       0x38 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_prologue.o)
+                0x00001cc2                __prologue_saves__
+ .text.libgcc   0x00001cfa       0x36 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_epilogue.o)
+                0x00001cfa                __epilogue_restores__
+                0x00001d30                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00001d30        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_exit.o)
+                0x00001d30                exit
+                0x00001d30                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00001d30        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00001d34                _etext = .
+
+.data           0x00800060      0x11e load address 0x00001d34
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+ .data          0x00800060        0x0 main.o
+ .data          0x00800060        0x9 Button_Input.o
+                0x00800060                Button_Command
+ .data          0x00800069       0xe7 Dimmer_Light.o
+                0x00800069                Dimmer_Mode
+ .data          0x00800150        0x0 EEPROM.o
+ .data          0x00800150        0x0 Fire_Triacs.o
+ .data          0x00800150        0x0 Init_Comparator.o
+ .data          0x00800150        0x0 Pins_Init.o
+ .data          0x00800150       0x1a RX.o
+                0x00800169                Unit_Network_ID_fast
+ .data          0x0080016a        0x0 Sensor_Input.o
+ .data          0x0080016a        0x1 Signal_Capturing.o
+                0x0080016a                Current_Noise_Threshold
+ .data          0x0080016b        0x0 Sync_Reference_Delays.o
+ .data          0x0080016b        0x0 Timers.o
+ .data          0x0080016b        0x4 TX.o
+ .data          0x0080016f        0xe UART.o
+                0x0080016f                uartstd
+ .data          0x0080017d        0x0 Vref.o
+ .data          0x0080017d        0x0 Zero_Cross.o
+ .data          0x0080017d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodhi4.o)
+ .data          0x0080017d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_exit.o)
+ .data          0x0080017d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_copy_data.o)
+ .data          0x0080017d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clear_bss.o)
+ .data          0x0080017d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(iob.o)
+ .data          0x0080017d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(printf.o)
+ .data          0x0080017d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(putchar.o)
+ .data          0x0080017d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(vfprintf_std.o)
+ .data          0x0080017d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(eerd_byte_atmega8.o)
+ .data          0x0080017d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(eewr_byte_atmega8.o)
+ .data          0x0080017d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strnlen_P.o)
+ .data          0x0080017d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strnlen.o)
+ .data          0x0080017d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(fputc.o)
+ .data          0x0080017d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(ultoa_invert.o)
+ .data          0x0080017d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_prologue.o)
+ .data          0x0080017d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_epilogue.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x0080017e                . = ALIGN (0x2)
+ *fill*         0x0080017d        0x1 00
+                0x0080017e                _edata = .
+                0x0080017e                PROVIDE (__data_end, .)
+
+.bss            0x0080017e       0x95
+                0x0080017e                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x0080017e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+ .bss           0x0080017e        0x0 main.o
+ .bss           0x0080017e        0xf Button_Input.o
+                0x0080017f                DID_Button
+                0x00800181                Need_To_TX_Button_Action
+                0x0080017e                Button_TX
+                0x00800182                Button_Command_Index
+                0x00800180                _2Trigger_Hold
+ .bss           0x0080018d        0x7 Dimmer_Light.o
+                0x0080018d                Divider
+                0x00800191                FadeRate
+                0x0080018f                current_output_lev
+                0x00800193                Auto_Report_State_Enabled
+                0x00800190                desired_output_lev
+                0x00800192                Default_FadeRate
+ .bss           0x00800194        0x0 EEPROM.o
+ .bss           0x00800194        0x0 Fire_Triacs.o
+ .bss           0x00800194        0x0 Init_Comparator.o
+ .bss           0x00800194        0x0 Pins_Init.o
+ .bss           0x00800194       0x52 RX.o
+                0x008001dd                Setup_5min_Divider_16bit
+                0x008001dc                ACK_Pulse_Flag
+                0x008001e4                Bit_in_Rel_Time
+                0x008001bc                ID_Exist
+                0x008001a6                Header_Byte
+                0x008001ac                Link_ID_fast
+                0x008001df                SETUP_mode
+                0x008001e3                Double_Bit_in_flag
+                0x008001e2                Double_Bit_buffer
+                0x00800194                Payload_Byte
+                0x008001e1                TXmode
+                0x008001e0                RX_overtime_flag
+                0x008001ab                Checksum_Byte
+ .bss           0x008001e6        0x5 Sensor_Input.o
+                0x008001e6                Need_To_Read_Sensor
+                0x008001e7                Light_Value
+                0x008001e9                Temp_Value
+ .bss           0x008001eb        0x0 Signal_Capturing.o
+ .bss           0x008001eb        0x2 Sync_Reference_Delays.o
+                0x008001eb                Positive_Delay
+                0x008001ec                Negative_Delay
+ .bss           0x008001ed        0x0 Timers.o
+ .bss           0x008001ed        0x2 TX.o
+                0x008001ee                Number_of_Register
+                0x008001ed                Double_Bit_out_flag
+ .bss           0x008001ef       0x1a UART.o
+                0x00800206                UART_Payload_Length
+                0x008001ef                UART_TX
+                0x008001f1                UART_Buffer
+                0x008001f0                Need_To_TX_UART
+                0x00800208                UART_Sync_Flag
+                0x00800207                UART_Payload_Index
+ .bss           0x00800209        0x1 Vref.o
+                0x00800209                Pre_State
+ .bss           0x0080020a        0x0 Zero_Cross.o
+ .bss           0x0080020a        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodhi4.o)
+ .bss           0x0080020a        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_exit.o)
+ .bss           0x0080020a        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_copy_data.o)
+ .bss           0x0080020a        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clear_bss.o)
+ .bss           0x0080020a        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(iob.o)
+ .bss           0x0080020a        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(printf.o)
+ .bss           0x0080020a        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(putchar.o)
+ .bss           0x0080020a        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(vfprintf_std.o)
+ .bss           0x0080020a        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(eerd_byte_atmega8.o)
+ .bss           0x0080020a        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(eewr_byte_atmega8.o)
+ .bss           0x0080020a        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strnlen_P.o)
+ .bss           0x0080020a        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strnlen.o)
+ .bss           0x0080020a        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(fputc.o)
+ .bss           0x0080020a        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(ultoa_invert.o)
+ .bss           0x0080020a        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_prologue.o)
+ .bss           0x0080020a        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_epilogue.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x0080020a        0x0 main.o
+ COMMON         0x0080020a        0x1 RX.o
+                0x0080020a                Unit_ID_fast
+ COMMON         0x0080020b        0x2 Zero_Cross.o
+                0x0080020b                CAP_Active
+                0x0080020c                Current_Half
+ COMMON         0x0080020d        0x6 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(iob.o)
+                0x0080020d                __iob
+                0x00800213                PROVIDE (__bss_end, .)
+                0x00001d34                __data_load_start = LOADADDR (.data)
+                0x00001e52                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800213        0x0
+                0x00800213                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800213                PROVIDE (__noinit_end, .)
+                0x00800213                _end = .
+                0x00800213                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x200
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 main.o
+ .debug_aranges
+                0x00000020       0x20 Button_Input.o
+ .debug_aranges
+                0x00000040       0x20 Dimmer_Light.o
+ .debug_aranges
+                0x00000060       0x20 EEPROM.o
+ .debug_aranges
+                0x00000080       0x20 Fire_Triacs.o
+ .debug_aranges
+                0x000000a0       0x20 Init_Comparator.o
+ .debug_aranges
+                0x000000c0       0x20 Pins_Init.o
+ .debug_aranges
+                0x000000e0       0x20 RX.o
+ .debug_aranges
+                0x00000100       0x20 Sensor_Input.o
+ .debug_aranges
+                0x00000120       0x20 Signal_Capturing.o
+ .debug_aranges
+                0x00000140       0x20 Sync_Reference_Delays.o
+ .debug_aranges
+                0x00000160       0x20 Timers.o
+ .debug_aranges
+                0x00000180       0x20 TX.o
+ .debug_aranges
+                0x000001a0       0x20 UART.o
+ .debug_aranges
+                0x000001c0       0x20 Vref.o
+ .debug_aranges
+                0x000001e0       0x20 Zero_Cross.o
+
+.debug_pubnames
+                0x00000000      0x874
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x4b main.o
+ .debug_pubnames
+                0x0000004b       0xc0 Button_Input.o
+ .debug_pubnames
+                0x0000010b      0x109 Dimmer_Light.o
+ .debug_pubnames
+                0x00000214       0x33 EEPROM.o
+ .debug_pubnames
+                0x00000247       0x22 Fire_Triacs.o
+ .debug_pubnames
+                0x00000269       0x26 Init_Comparator.o
+ .debug_pubnames
+                0x0000028f       0x20 Pins_Init.o
+ .debug_pubnames
+                0x000002af      0x214 RX.o
+ .debug_pubnames
+                0x000004c3       0x79 Sensor_Input.o
+ .debug_pubnames
+                0x0000053c       0x3e Signal_Capturing.o
+ .debug_pubnames
+                0x0000057a       0x8f Sync_Reference_Delays.o
+ .debug_pubnames
+                0x00000609       0x6b Timers.o
+ .debug_pubnames
+                0x00000674       0x64 TX.o
+ .debug_pubnames
+                0x000006d8       0xbf UART.o
+ .debug_pubnames
+                0x00000797       0x6c Vref.o
+ .debug_pubnames
+                0x00000803       0x71 Zero_Cross.o
+
+.debug_info     0x00000000     0x213b
+ *(.debug_info)
+ .debug_info    0x00000000      0x169 main.o
+ .debug_info    0x00000169      0x1fa Button_Input.o
+ .debug_info    0x00000363      0x200 Dimmer_Light.o
+ .debug_info    0x00000563       0xbd EEPROM.o
+ .debug_info    0x00000620      0x18c Fire_Triacs.o
+ .debug_info    0x000007ac       0x72 Init_Comparator.o
+ .debug_info    0x0000081e       0x72 Pins_Init.o
+ .debug_info    0x00000890      0x930 RX.o
+ .debug_info    0x000011c0      0x119 Sensor_Input.o
+ .debug_info    0x000012d9      0x164 Signal_Capturing.o
+ .debug_info    0x0000143d      0x13c Sync_Reference_Delays.o
+ .debug_info    0x00001579      0x2dc Timers.o
+ .debug_info    0x00001855      0x378 TX.o
+ .debug_info    0x00001bcd      0x249 UART.o
+ .debug_info    0x00001e16       0xaf Vref.o
+ .debug_info    0x00001ec5      0x276 Zero_Cross.o
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0xde0
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0xab main.o
+ .debug_abbrev  0x000000ab       0xb6 Button_Input.o
+ .debug_abbrev  0x00000161       0xc7 Dimmer_Light.o
+ .debug_abbrev  0x00000228       0x67 EEPROM.o
+ .debug_abbrev  0x0000028f       0xb7 Fire_Triacs.o
+ .debug_abbrev  0x00000346       0x3f Init_Comparator.o
+ .debug_abbrev  0x00000385       0x3f Pins_Init.o
+ .debug_abbrev  0x000003c4      0x2a3 RX.o
+ .debug_abbrev  0x00000667       0xbb Sensor_Input.o
+ .debug_abbrev  0x00000722       0xcb Signal_Capturing.o
+ .debug_abbrev  0x000007ed       0xa1 Sync_Reference_Delays.o
+ .debug_abbrev  0x0000088e      0x12b Timers.o
+ .debug_abbrev  0x000009b9      0x16a TX.o
+ .debug_abbrev  0x00000b23      0x137 UART.o
+ .debug_abbrev  0x00000c5a       0x57 Vref.o
+ .debug_abbrev  0x00000cb1      0x12f Zero_Cross.o
+
+.debug_line     0x00000000     0x1e6c
+ *(.debug_line)
+ .debug_line    0x00000000      0x1ec main.o
+ .debug_line    0x000001ec      0x24c Button_Input.o
+ .debug_line    0x00000438      0x1a8 Dimmer_Light.o
+ .debug_line    0x000005e0       0x8f EEPROM.o
+ .debug_line    0x0000066f      0x112 Fire_Triacs.o
+ .debug_line    0x00000781       0x6e Init_Comparator.o
+ .debug_line    0x000007ef       0x90 Pins_Init.o
+ .debug_line    0x0000087f      0x796 RX.o
+ .debug_line    0x00001015      0x11c Sensor_Input.o
+ .debug_line    0x00001131      0x144 Signal_Capturing.o
+ .debug_line    0x00001275      0x15f Sync_Reference_Delays.o
+ .debug_line    0x000013d4      0x24b Timers.o
+ .debug_line    0x0000161f      0x41e TX.o
+ .debug_line    0x00001a3d      0x16f UART.o
+ .debug_line    0x00001bac       0x85 Vref.o
+ .debug_line    0x00001c31      0x23b Zero_Cross.o
+
+.debug_frame    0x00000000      0x3b0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x30 main.o
+ .debug_frame   0x00000030       0x40 Button_Input.o
+ .debug_frame   0x00000070       0x50 Dimmer_Light.o
+ .debug_frame   0x000000c0       0x30 EEPROM.o
+ .debug_frame   0x000000f0       0x20 Fire_Triacs.o
+ .debug_frame   0x00000110       0x20 Init_Comparator.o
+ .debug_frame   0x00000130       0x20 Pins_Init.o
+ .debug_frame   0x00000150       0xb0 RX.o
+ .debug_frame   0x00000200       0x40 Sensor_Input.o
+ .debug_frame   0x00000240       0x20 Signal_Capturing.o
+ .debug_frame   0x00000260       0x30 Sync_Reference_Delays.o
+ .debug_frame   0x00000290       0x50 Timers.o
+ .debug_frame   0x000002e0       0x30 TX.o
+ .debug_frame   0x00000310       0x40 UART.o
+ .debug_frame   0x00000350       0x30 Vref.o
+ .debug_frame   0x00000380       0x30 Zero_Cross.o
+
+.debug_str      0x00000000      0xa01
+ *(.debug_str)
+ .debug_str     0x00000000      0x15a main.o
+                                0x19e (size before relaxing)
+ .debug_str     0x0000015a       0xff Button_Input.o
+                                0x23d (size before relaxing)
+ .debug_str     0x00000259      0x12d Dimmer_Light.o
+                                0x229 (size before relaxing)
+ .debug_str     0x00000386       0x33 EEPROM.o
+                                0x105 (size before relaxing)
+ .debug_str     0x000003b9       0x85 Fire_Triacs.o
+                                0x157 (size before relaxing)
+ .debug_str     0x0000043e       0x25 Init_Comparator.o
+                                 0xf7 (size before relaxing)
+ .debug_str     0x00000463       0x19 Pins_Init.o
+                                 0xeb (size before relaxing)
+ .debug_str     0x0000047c      0x29e RX.o
+                                0x42a (size before relaxing)
+ .debug_str     0x0000071a       0x49 Sensor_Input.o
+                                0x147 (size before relaxing)
+ .debug_str     0x00000763       0x7a Signal_Capturing.o
+                                0x1b2 (size before relaxing)
+ .debug_str     0x000007dd       0x6b Sync_Reference_Delays.o
+                                0x1d1 (size before relaxing)
+ .debug_str     0x00000848       0x52 Timers.o
+                                0x1e1 (size before relaxing)
+ .debug_str     0x0000089a       0x57 TX.o
+                                0x262 (size before relaxing)
+ .debug_str     0x000008f1       0x95 UART.o
+                                0x198 (size before relaxing)
+ .debug_str     0x00000986       0x3c Vref.o
+                                0x126 (size before relaxing)
+ .debug_str     0x000009c2       0x3f Zero_Cross.o
+                                0x222 (size before relaxing)
+
+.debug_loc      0x00000000      0x5a4
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x1e main.o
+ .debug_loc     0x0000001e      0x133 Button_Input.o
+ .debug_loc     0x00000151       0x47 Dimmer_Light.o
+ .debug_loc     0x00000198       0x39 EEPROM.o
+ .debug_loc     0x000001d1       0x54 RX.o
+ .debug_loc     0x00000225       0x26 Sensor_Input.o
+ .debug_loc     0x0000024b       0x71 Signal_Capturing.o
+ .debug_loc     0x000002bc       0x38 Sync_Reference_Delays.o
+ .debug_loc     0x000002f4       0x56 Timers.o
+ .debug_loc     0x0000034a      0x1e8 TX.o
+ .debug_loc     0x00000532       0x3c UART.o
+ .debug_loc     0x0000056e       0x36 Zero_Cross.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(UPB_Atmega8.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000       0x98
+ .debug_ranges  0x00000000       0x18 RX.o
+ .debug_ranges  0x00000018       0x48 Timers.o
+ .debug_ranges  0x00000060       0x38 TX.o
